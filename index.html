@@ -1,70 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>MEP Consulting in Oman | Alwejha Group</title>
-  <meta name="description" content="Strategic MEP consulting in Oman—Alwejha Group provides design review, energy audits, code compliance, and technical advisory for high-performance systems."/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+  <title>MEP Consulting Services Oman | Muscat & Sohar | Alwejha Group</title>
+  <meta name="description" content="Professional MEP Consulting in Oman - HVAC Design, Electrical Engineering & Plumbing System Optimization. Certified Consultants Serving Muscat, Sohar & Salalah">
+  <meta name="keywords" content="MEP Consulting Oman, HVAC Design Muscat, Electrical Engineering Sohar, Plumbing Systems Oman, Building Services Consultants">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://mep-consulting-oman.alwejhagroup.com/"/>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:#333;background:#fff;line-height:1.6;}
-    header{background:url('mep-consulting-oman.webp')no-repeat center/cover;height:90vh;display:flex;align-items:center;justify-content:center;position:relative;text-align:center;color:#fff;}
-    header::after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);}
-    header h1{z-index:1;font-size:3rem;text-shadow:2px 2px 8px rgba(0,0,0,0.8);}
-    nav{background:#003366;display:flex;justify-content:center;gap:30px;padding:15px 0;position:sticky;top:0;}
-    nav a{color:#fff;font-weight:600;text-decoration:none;}nav a:hover{color:#ffcc00;}
-    section{padding:60px 20px;max-width:1200px;margin:auto;}
-    section h2{color:#003366;margin-bottom:20px;font-size:2rem;text-align:center;}
-    section p,section ul{font-size:1rem;color:#555;text-align:center;}
-    ul{list-style:none;padding:0;}ul li{padding:8px 0;}
-    .btn{display:inline-block;padding:12px 25px;color:#fff;background:#003366;font-weight:bold;border-radius:5px;transition:background .3s;}
-    .btn:hover{background:#005599;}
-    footer{background:#003366;color:#fff;text-align:center;padding:20px;margin-top:40px;font-size:14px;}
-    @media(max-width:768px){header h1{font-size:2rem;}nav{flex-wrap:wrap;gap:15px;}}
+    :root {
+      --primary-blue: #003366;
+      --accent-yellow: #ffcc00;
+      --dark-text: #2d3748;
+      --light-bg: #f8fafc;
+    }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--dark-text);
+      background: #fff;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)),
+                  url('/mep-consulting-oman.webp') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 2.8rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+      line-height: 1.2;
+    }
+
+    nav {
+      background: var(--primary-blue);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: var(--accent-yellow);
+      color: var(--primary-blue);
+    }
+
+    section {
+      padding: 4rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      color: var(--primary-blue);
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-top: 4px solid var(--primary-blue);
+    }
+
+    .service-card h3 {
+      color: var(--primary-blue);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      background: var(--primary-blue);
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: #002244;
+    }
+
+    .client-logos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    footer {
+      background: var(--primary-blue);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.75rem; }
+      .nav-container { gap: 1rem; }
+    }
   </style>
 </head>
-<body>
-
-  <header><h1>MEP Consulting in Oman</h1></header>
+<body itemscope itemtype="http://schema.org/ProfessionalService">
+  <header>
+    <h1 itemprop="name">MEP Engineering Consultants in Oman</h1>
+  </header>
 
   <nav>
-    <a href="https://www.alwejhagroup.com/">Home</a>
-    <a href="https://www.alwejhagroup.com/area-of-expertise">Area of Expertise</a>
-    <a href="https://www.alwejhagroup.com/our-services">Our Services</a>
-    <a href="https://www.alwejhagroup.com/contact">Contact</a>
+    <div class="nav-container">
+      <a href="https://www.alwejhagroup.com/" aria-label="Home"><i class="fas fa-home"></i> Home</a>
+      <a href="https://www.alwejhagroup.com/area-of-expertise" aria-label="Expertise"><i class="fas fa-cogs"></i> Expertise</a>
+      <a href="https://www.alwejhagroup.com/our-services" aria-label="Services"><i class="fas fa-tools"></i> Services</a>
+      <a href="https://www.alwejhagroup.com/contact" aria-label="Contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
   </nav>
 
-  <section id="expertise">
-    <h2>Area of Expertise</h2>
-    <p>Our consultants deliver data-driven design optimization, energy modeling, and regulatory guidance to maximize your project’s ROI and sustainability.</p>
-  </section>
+  <section id="services" itemprop="makesOffer" itemscope itemtype="http://schema.org/OfferCatalog">
+    <h2>Comprehensive MEP Consulting Services</h2>
+    <div class="service-grid">
+      <div class="service-card" itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+        <h3><i class="fas fa-fire"></i> <span itemprop="name">Mechanical Systems Design</span></h3>
+        <ul>
+          <li>HVAC load calculations & optimization</li>
+          <li>Energy efficiency audits</li>
+          <li>Ventilation system design</li>
+          <li>Plumbing system analysis</li>
+        </ul>
+      </div>
+      
+      <div class="service-card" itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+        <h3><i class="fas fa-bolt"></i> <span itemprop="name">Electrical Engineering</span></h3>
+        <ul>
+          <li>Power distribution design</li>
+          <li>Lighting system optimization</li>
+          <li>Emergency power solutions</li>
+          <li>Energy management systems</li>
+        </ul>
+      </div>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Design Review & Load Calculations</li>
-      <li>Energy & Sustainability Audits</li>
-      <li>Cost Estimation & Value Engineering</li>
-      <li>Regulatory Compliance Support</li>
-      <li>Technical Feasibility Studies</li>
-    </ul>
+      <div class="service-card" itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+        <h3><i class="fas fa-tint"></i> <span itemprop="name">Plumbing Consultancy</span></h3>
+        <ul>
+          <li>Water supply system design</li>
+          <li>Drainage system optimization</li>
+          <li>Stormwater management</li>
+          <li>Sustainable water solutions</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section id="clients">
-    <h2>Our Clients</h2>
-    <p>Architects, developers, and facility managers across Oman trust our advisory—read their stories on our main website.</p>
+    <h2>Trusted By</h2>
+    <div class="client-logos">
+      <!-- Add client logos with proper alt text -->
+      <div class="client-logo" style="background:#f3f4f6;height:80px;border-radius:8px;"></div>
+      <div class="client-logo" style="background:#f3f4f6;height:80px;border-radius:8px;"></div>
+      <div class="client-logo" style="background:#f3f4f6;height:80px;border-radius:8px;"></div>
+    </div>
   </section>
 
   <section id="contact">
-    <h2>Contact Us</h2>
-    <p><a class="btn" href="https://www.alwejhagroup.com/contact">Get in Touch</a></p>
+    <h2>Contact Our MEP Experts</h2>
+    <div style="text-align:center; margin-top:2rem;">
+      <a href="https://www.alwejhagroup.com/contact" class="btn">
+        <i class="fas fa-paper-plane"></i> Schedule Consultation
+      </a>
+    </div>
   </section>
 
-  <section style="text-align:center;padding:40px 0;background:#f4f4f4;">
-    <a class="btn" href="https://www.alwejhagroup.com/" style="background:#ffcc00;color:#003366;">Visit Our Main Website</a>
-  </section>
+  <footer itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <p>&copy; 2025 <span itemprop="name">Alwejha Group</span>. All rights reserved.</p>
+    <div style="margin-top:1rem;">
+      <a href="https://www.alwejhagroup.com/privacy" style="color:#fff;text-decoration:none;">Privacy Policy</a> | 
+      <a href="https://www.alwejhagroup.com/terms" style="color:#fff;text-decoration:none;">Terms of Service</a>
+    </div>
+  </footer>
 
-  <footer>&copy; 2025 Alwejha Group. All rights reserved.</footer>
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Alwejha Group MEP Consulting",
+      "image": "/mep-consulting-oman.webp",
+      "@id": "https://mep-consulting-oman.alwejhagroup.com/",
+      "url": "https://mep-consulting-oman.alwejhagroup.com/",
+      "telephone": "+96879271055",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Muscat",
+        "addressRegion": "Oman",
+        "postalCode": "100",
+        "streetAddress": "Al Khuwair"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.615999,
+        "longitude": 58.592333
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/alwejhagroup",
+        "https://twitter.com/alwejhagroup"
+      ] 
+    }
+  </script>
 </body>
 </html>
