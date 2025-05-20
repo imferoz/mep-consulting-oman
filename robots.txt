@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /cdn-cgi/l/email-protection
-Allow: /
-
+Disallow: /cdn-cgi/
+Allow: /mep-consulting/
+Allow: /engineering-services/
 Sitemap: https://mep-consulting-oman.alwejhagroup.com/sitemap.xml
